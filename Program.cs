@@ -12,7 +12,7 @@ void FillArray(string[] array, string[] checkArray)
     int count = 0;
     for (int i = 0; i < n; i++)
     {
-        if (array[i].Length < 3)
+        if (array[i].Length <= 3)
         {
             checkArray[count] = array[i];
             count++;
